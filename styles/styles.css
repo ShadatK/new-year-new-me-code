@@ -27,7 +27,7 @@
 /*Header styles*/
 
 header{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* padding-top: 1px; */
     height: 100vh;
     background-image: url("../images/banner/banner2.png");
