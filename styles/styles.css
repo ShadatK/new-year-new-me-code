@@ -27,8 +27,9 @@
 /*Header styles*/
 
 header{
-    /* border: 2px solid red; */
-    /* padding-top: 1px; */
+    /* border: 2px solid red; */       /* I had written just border and no padding here, but when removing the border something called "margin collapse" occurred */
+    /*padding-top: 1px;*/        /* Why doesn't everyone use padding-top:1px then? Because it's not the real solution. People usually solve it by changing the layout instead. Like:-- display:flex; or overflow:hidden;  .   The padding-top: 1px trick is mostly used as a debugging technique to prove that margin collapsing is happening. */
+    overflow: hidden;        /* This is the real solution to margin collapsing. */
     height: 100vh;
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
