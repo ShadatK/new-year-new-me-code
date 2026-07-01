@@ -20,8 +20,6 @@
     border-radius: 5px;
     padding: 20px 25px;
     cursor: pointer;
-    color: white;
-    background-color: #F15B22;
 }
 
 /*Header styles*/
@@ -58,6 +56,10 @@ header{
     line-height: 26px;
     color: #444343;
     padding-bottom: 32px;
+}
+#banner button{
+    color: white;
+    background-color: #F15B22;
 }
 
 /* Main styles */
@@ -137,4 +139,29 @@ header{
     font-weight: 400;
     line-height: 26px;
     color: #444343;
+}
+
+/* mindset card section */
+#card{
+    /* border: 2px solid red; */
+    background-image: url("../images/gradient1.png") , url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 230px 130px;;
+}
+#card .card-content{      /* Learned something here: Think in terms of containers:--   
+    Instead of saying: "Push the text away from the right."   Think: "Make a text container that's only 450–500px wide." */
+    width: 570px;
+    /* text-align: left; */
+    padding: 60px;
+}
+#card h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: white;
+}
+#card button{
+    color: #F15B22;
+    background-color: white;
 }
