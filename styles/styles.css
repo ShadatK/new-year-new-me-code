@@ -61,13 +61,14 @@ header{
 }
 
 /* Main styles */
+/* my-failures section */
 #my-failures {
     /* border: 2px solid red; */
     display: flex;
     gap: 87px;
     justify-content:center;
     align-items: center;
-    margin: 130px 322px 130px 206px;
+    margin: 130px 322px 135px 206px;
 }
 .failures{
     /* border: 2px solid red; */
@@ -103,4 +104,37 @@ header{
 	width: 23px;
 	margin-left: -24px;
     padding-right: 10px;
+}
+
+/* my-plans section */
+#my-plans{
+    /* border: 2px solid red; */
+    margin-bottom: 125px;
+    text-align: center;
+}
+#my-plans h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+#my-plans .plans{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+#my-plans .plans img{
+    width: 93px;
+    max-width: 100%;
+    padding-bottom: 24px;
+}
+#my-plans .plans h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+#my-plans .plans p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
 }
