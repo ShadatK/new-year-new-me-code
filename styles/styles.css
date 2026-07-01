@@ -165,3 +165,66 @@ header{
     color: #F15B22;
     background-color: white;
 }
+
+/* Footer styles */
+footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    overflow: hidden;
+}
+.footer-content{
+    display: flex;
+    gap: 330px;
+    justify-content: space-around;
+    margin: 130px 230px;
+    color: white;
+}
+.footer-content .info{
+    width: 490px;
+    max-width: 100%;
+}
+.footer-content .info .contact{
+    /* border: 2px solid red; */
+    padding-bottom: 15px;
+}
+.footer-content .info .contact h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.footer-content .info .contact p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+/* .footer-content .info .socials{
+    border: 2px solid red;
+} */
+.footer-content .info .socials a{
+    padding-right: 20px;
+}
+
+.footer-content .subscribe{
+    /* border: 2px solid red; */
+    width: 300px;
+    max-width: 100%;
+}
+.footer-content .subscribe h3{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.footer-content .subscribe input[type="email"]{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+.footer-content .subscribe button{
+    color: #F15B22;
+    background-color: white;
+}
