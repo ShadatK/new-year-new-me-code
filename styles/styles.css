@@ -148,6 +148,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 230px 130px;;
+    border-radius: 10px;
 }
 #card .card-content{      /* Learned something here: Think in terms of containers:--   
     Instead of saying: "Push the text away from the right."   Think: "Make a text container that's only 450–500px wide." */
